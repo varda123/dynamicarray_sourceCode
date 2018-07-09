@@ -119,35 +119,52 @@ public class MyCollection implements DynamicArray {
 
 	public String[] rotate(int n) {
 		// TODO Auto-generated method stub
-		 for (int i = 0; i < 2; i++)
+		int arraySize=numArray.length;	
+		 for (int i = 0; i < n; i++)
 		 {
-			 String temp = numArray[0], k;
-			   for (i = 0; i < n-1; i++)
-			       numArray[i] = numArray[i+1];
+			 String temp = numArray[0];
+			 int k;
+			   for ( k = 0; k < arraySize-1; k++)
+			       numArray[k] = numArray[k+1];
 			    
-			   numArray[i] = temp;
+			   numArray[k] = temp;
 		 }
 		 for(int i=0;i<n;i++)
 			{
-				System.out.println(numArray[i]);
+				System.out.println("(((((((((("+numArray[i]);
 
 			}
-
-		 
-		return null;
+		/* System.out.println(arraySize + "****************");
+			String result="{";
+			for(int  i = 0;i<numArray.length;i++) {
+				if(numArray[i] != null) {
+					if(i != arraySize-1) {
+						result+= numArray[i] + ",";
+					}
+					else {
+						result+= numArray[i];
+					}
+				}
+			}
+			result +=   "}";*/
+			return numArray;
 	}
 public String toString()
 {
 	int arraySize=numArray.length;	
-	String result= "{";
-	for(int i=0;i<arraySize;i++)
-	{
-		result.concat(numArray[i]);
-		result.concat(",");
-
+	String result="{";
+	System.out.println(arraySize + "****************");
+	for(int  i = 0;i<numArray.length;i++) {
+		if(numArray[i] != null) {
+			if(i != arraySize-1) {
+				result+= numArray[i] + ",";
+			}
+			else {
+				result+= numArray[i];
+			}
+		}
 	}
-result.concat("}");
-	System.out.println(result);
+	result +=   "}";
 	return result;
 }
 }
