@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="20" failures="17" name="TestSuite" time="0.07" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vardasaxena\Downloads\qa-test-master\qa-test-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Vardasaxena\Downloads\qa-test-master\qa-test-master"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VARDAS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Vardasaxena\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2862654663116396216.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Users\Vardasaxena\Downloads\chromedriver;C:\Users\Vardasaxena\AppData\Local\Programs\Git\cmd;C:\Users\Vardasaxena\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Vardasaxena"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Vardasaxena"/>
+    <property name="java.class.path" value="C:\Users\Vardasaxena\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Vardasaxena\Downloads\qa-test-master\qa-test-master\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test10_Rotate_Array" time="0.03">
+    <failure message="expected [{-4,-5,54,95,-14,-15,4,5}] but found [question1.MyCollection@7c0e2abd]" type="java.lang.AssertionError">java.lang.AssertionError: expected [{-4,-5,54,95,-14,-15,4,5}] but found [question1.MyCollection@7c0e2abd]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at testquestion1.Test_MyCollection.Test10_Rotate_Array(Test_MyCollection.java:94)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6f2b958e
+</system-out>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test1_Able_To_Add_New_Entry_In_Collection" time="0">
+    <failure message="Assertion Failed : Not able to add number 5 in collection expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Assertion Failed : Not able to add number 5 in collection expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at testquestion1.Test_MyCollection.Test1_Able_To_Add_New_Entry_In_Collection(Test_MyCollection.java:16)
+</failure>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test2_Duplicate_Entry_In_Collection" time="0"/>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test3_Get_Collection_Functionality" time="0.01">
+    <failure message="Assertion Failed : Not able to read collection expected [{}] but found [question1.MyCollection@56f4468b]" type="java.lang.AssertionError">java.lang.AssertionError: Assertion Failed : Not able to read collection expected [{}] but found [question1.MyCollection@56f4468b]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testquestion1.Test_MyCollection.Test3_Get_Collection_Functionality(Test_MyCollection.java:32)
+</failure>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test4_DoubleCapacity" time="0">
+    <failure message="Assertion Failed : Not able to add number in collection once it get fulled expected [{4,5,-4,-5,6}] but found [question1.MyCollection@100fc185]" type="java.lang.AssertionError">java.lang.AssertionError: Assertion Failed : Not able to add number in collection once it get fulled expected [{4,5,-4,-5,6}] but found [question1.MyCollection@100fc185]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testquestion1.Test_MyCollection.Test4_DoubleCapacity(Test_MyCollection.java:41)
+</failure>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test5_Remove_Functionality_If_Entry_Already_Present" time="0">
+    <failure message="Assetion Failed : Not Able to delete entry from collection expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Assetion Failed : Not Able to delete entry from collection expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at testquestion1.Test_MyCollection.Test5_Remove_Functionality_If_Entry_Already_Present(Test_MyCollection.java:50)
+</failure>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test6_Remove_Functionality_If_Collection_Is_Empty" time="0"/>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test7_Collection_Length_Functionality" time="0">
+    <failure message="expected [6] but found [0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [6] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at testquestion1.Test_MyCollection.Test7_Collection_Length_Functionality(Test_MyCollection.java:67)
+</failure>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test8_Search_Functionality_If_Enrty_Exists" time="0">
+    <failure message="expected [4] but found [0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [4] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at testquestion1.Test_MyCollection.Test8_Search_Functionality_If_Enrty_Exists(Test_MyCollection.java:76)
+</failure>
+  </testcase>
+  <testcase classname="testquestion1.Test_MyCollection" name="Test9_Search_Functionality_If_Enrty_Not_Exists" time="0">
+    <failure message="expected [-1] but found [0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [-1] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at testquestion1.Test_MyCollection.Test9_Search_Functionality_If_Enrty_Not_Exists(Test_MyCollection.java:84)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test10_Rotate_Array" time="0.02">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test10_Rotate_Array(Test_MyCollection.java:91)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test1_Able_To_Add_New_Entry_In_Collection" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test1_Able_To_Add_New_Entry_In_Collection(Test_MyCollection.java:16)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test2_Duplicate_Entry_In_Collection" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test2_Duplicate_Entry_In_Collection(Test_MyCollection.java:23)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test3_Get_Collection_Functionality" time="0">
+    <failure message="Assertion Failed : Not able to read collection expected [{}] but found [question2.MyCollection@2a5ca609]" type="java.lang.AssertionError">java.lang.AssertionError: Assertion Failed : Not able to read collection expected [{}] but found [question2.MyCollection@2a5ca609]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at testquestion2.Test_MyCollection.Test3_Get_Collection_Functionality(Test_MyCollection.java:32)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test4_DoubleCapacity" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test4_DoubleCapacity(Test_MyCollection.java:39)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test5_Remove_Functionality_If_Entry_Already_Present" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test5_Remove_Functionality_If_Entry_Already_Present(Test_MyCollection.java:48)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test6_Remove_Functionality_If_Collection_Is_Empty" time="0"/>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test7_Collection_Length_Functionality" time="0.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test7_Collection_Length_Functionality(Test_MyCollection.java:64)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test8_Search_Functionality_If_Enrty_Exists" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test8_Search_Functionality_If_Enrty_Exists(Test_MyCollection.java:73)
+</failure>
+  </testcase>
+  <testcase classname="testquestion2.Test_MyCollection" name="Test9_Search_Functionality_If_Enrty_Not_Exists" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at question2.MyCollection.search(MyCollection.java:30)
+	at question2.MyCollection.add(MyCollection.java:50)
+	at testquestion2.Test_MyCollection.Test9_Search_Functionality_If_Enrty_Not_Exists(Test_MyCollection.java:82)
+</failure>
+  </testcase>
+</testsuite>
