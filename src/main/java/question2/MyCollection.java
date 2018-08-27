@@ -20,8 +20,13 @@ public class MyCollection implements DynamicArray {
 	
 	
 	
-	public MyCollection(int arraySize){
+//	public MyCollection(int arraySize){
+//		numArray = new String[arraySize];
+//	
+//	}
+	public void MyCollection(int arraySize){
 		numArray = new String[arraySize];
+		System.out.println("varda");
 	
 	}
 
